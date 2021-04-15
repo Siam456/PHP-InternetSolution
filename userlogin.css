@@ -1,0 +1,52 @@
+#particles-js{
+ background-color: #1D2025;
+ height: 100vh;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.login{
+    position: absolute;
+    margin: auto;
+  
+  top: 0; left: 0; bottom: 0; right: 0;
+
+    height: 70%;
+    width: 30%;
+    opacity: 98%;
+    border-radius: 6px;
+    color: white;
+    padding: 30px;
+    box-shadow:inset -2px -2px 8px black,
+      inset -2px -2px 12px rgba(255,255,255,0.5),
+      inset 2px 2px 4px rgba(255,255,255,0.1),
+      inset 2px 2px 8px rgba(0,0,0,0.15);
+}
+form{
+  margin-top: 40px;
+}
+
+
+@media (max-width:1100px) {
+  
+  .login{
+    height: 40%;
+    width: 90%;
+  }
+}
+@media (max-width: 579px) {
+  img{
+    margin: auto;
+    height: 100px;
+    width: 100%;
+  }
+  .login{
+    height: 90%;
+    width: 90%;
+  }
+  
+  
+}
+
+

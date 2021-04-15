@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!--Bootstrap CDN Start-->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+       <!-- Bootstrap CDN End -->
+       <link rel="shortcut icon" href="circle-cropped.png">
+       <!-- ICONS PACK FONT-AWESOME -->
+       <script src="https://kit.fontawesome.com/777b9d824c.js" crossorigin="anonymous"></script>
+       <!-- END ICONS PACK FONT-AWESOME -->
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid mt-3">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="text-center mt-3">Shopping Cart Data</h2>
+                    <div class="col-md-12">
+                        <div class="row">
+                    <div class="col-md-4 my-3">
+                        <form action="pacakges.php?id=<?=$row['id']?>" method="post" style="border: 1px solid red; padding: 5px;">
+                            <div class="card-product bg-danger">
+                                <img src="naj.png" alt="" height="150px" class="d-block mx-auto p-2">
+                            </div>
+                            <div>
+                                <h5 class= 'text-center mt-2' style="border-bottom: 1px solid gray ; padding: 2px;">PRODUCT NAME</h5>
+                            </div>
+                            <div>
+                                <p style="height: 100px; overflow: hidden; text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempore consequuntur rerum! Nostrum aliquid consectetur ipsa repellat. Provident facilis obcaecati, at aliquam inventore ?</p>
+                                <a href="">Details</a>
+                            </div>
+                            <div>
+                                <h4 class="text-center my-2 product-price">PRICE</h4>
+                            </div>
+                            <div class="row text-center my-2">
+                                <div class="col">UNIT: </div> <!--UNIT ER PASEI EKTA INPUT FIELD THAKBE-->
+                                <div class="col"><i class="fas fa-shopping-cart"></i></div>
+                            </div>
+                            
+                        </form>
+                    </div>
+                        
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
